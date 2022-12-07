@@ -30,8 +30,8 @@ out.println("Server Host Name :: "+inetAddress.getHostName());
 <div style="text-align: center;">
 	<span>
 		
-	<div style="text-align: right;"><img src="images/devops.png" width="350" alt="My Image" /></div>
-		<div style="text-align: left;"><img src="images/manandcomuters.png" width="350" alt="My Image" /></div>
+	<div style="text-align: right;"><img src="images/devops.png" width="550" alt="My Image" /></div>
+		<div style="text-align: left;"><img src="images/manandcomputers.png" width="550" alt="My Image" /></div>
 
 	<!--
 		<img src="images/devops.png" alt="" width="750">
