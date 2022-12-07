@@ -10,7 +10,7 @@
 </head>
 <body>
 <h1 align="center">Welcome to Josephs  Project.</h1>
-<h1 align="center">Learning DevOPS , This is a Beta test to use Jenkins in my CI/CD Project 1>
+<h1 align="center">Learning DevOPS , This is a Beta test to use Jenkins in my CI/CD Project h1>
 <hr>
 <br>
 	<h1><h3> Server Side IP Address </h3><br>
