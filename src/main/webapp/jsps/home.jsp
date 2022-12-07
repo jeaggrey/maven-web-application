@@ -9,7 +9,7 @@
 </head>
 </head>
 <body>
-<h1 align="center">Welcome to Josephs  Project.</h1>
+<h1 align="center">Welcome to Joseph's DevOP Project.</h1>
 <h1 align="center">Learning DevOPS , This is a Beta test to use Jenkins in my CI/CD Project </h1>
 <hr>
 <br>
@@ -32,7 +32,7 @@ out.println("Server Host Name :: "+inetAddress.getHostName());
 		<img src="images/devops.png" alt="" width="750">
 	</span>
 	<span style="font-weight: bold;">
-		<h1> Joseph Technology </h1> 
+		<h1> Joseph's Technology </h1> 
 		<h1> Woodstock , Ontario </h1> 
 		<h1>  Canada </h1>
 		joey.grey@yahoo.com
