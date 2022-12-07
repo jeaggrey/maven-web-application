@@ -93,25 +93,25 @@
 		
 	</dependencies>
 	<distributionManagement>
-	<!--	
+		
 	    <repository>
 	      <id>nexus</id>
-	      <name>Landmark Technologies Releases Nexus Repository</name>
-	      <url>http://35.182.248.75:8081/repository/JosephsRelease/</url>
+	      <name>Joseph Technologies Releases Nexus Repository</name>
+	      <url>http://35.183.30.239:8081/repository/JosephWebApp-Release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>Landmark Technologies Snapshot Nexus Repository </name>
-	      <url>http://35.182.248.75:8081/repository/Joseph-Snapshot/</url>
+	      <name>Joseph Technologies Snapshot Nexus Repository </name>
+	      <url>http://35.183.30.239:8081/repository/JosephWebApp-Snapshot/</url>
 	    </snapshotRepository>
-	    -->
+	    
 	</distributionManagement>
 	
 	<build>
-	<!--
-		<finalName>maven-web-app</finalName>
-		-->
+	
+		<finalName>JoeTech-WebApp</finalName>
+	
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
