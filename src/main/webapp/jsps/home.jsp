@@ -5,13 +5,18 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Joseph Aggrey - Home Page</title>
-<link href="images/devops.png" rel="icon">
+	
+<link href="images/devops.png" rel="icon"
 </head>
 </head>
 <body>
 <h1 align="center">Welcome to Joseph's DevOP Project.</h1>
 <h1 align="center">Learning DevOPS , This is a Beta test to use Jenkins in my CI/CD Project </h1>
-<div style="text-align: left;"><img src="images/manandcomputers.png" width="550" alt="My Image" /></div>
+<span>
+		
+		<img src="images/manandcomputers" alt="" width="950">
+
+	</span>
 <hr>
 <br>
 	<h1><h3> Server Side IP Address </h3><br>
@@ -31,9 +36,7 @@ out.println("Server Host Name :: "+inetAddress.getHostName());
 <div style="text-align: center;">
 	<span>
 		
- 
-
-		<img src="images/devops.png" alt="" width="750">
+		<img src="images/devops.png" alt="" width="950">
 
 	</span>
 	<span style="font-weight: bold;">
