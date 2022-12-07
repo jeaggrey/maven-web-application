@@ -29,7 +29,7 @@ out.println("Server Host Name :: "+inetAddress.getHostName());
 <hr>
 <div style="text-align: center;">
 	<span>
-		<img src="images/devops.png" alt="" width="450">
+		<img src="images/devops.png" alt="" width="750">
 	</span>
 	<span style="font-weight: bold;">
 		<h1> Joseph Technology </h1> 
