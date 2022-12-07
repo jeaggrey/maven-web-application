@@ -11,6 +11,7 @@
 <body>
 <h1 align="center">Welcome to Joseph's DevOP Project.</h1>
 <h1 align="center">Learning DevOPS , This is a Beta test to use Jenkins in my CI/CD Project </h1>
+<div style="text-align: left;"><img src="images/manandcomputers.png" width="550" alt="My Image" /></div>
 <hr>
 <br>
 	<h1><h3> Server Side IP Address </h3><br>
@@ -30,12 +31,10 @@ out.println("Server Host Name :: "+inetAddress.getHostName());
 <div style="text-align: center;">
 	<span>
 		
-	<div style="text-align: right;"><img src="images/devops.png" width="550" alt="My Image" /></div> <div style="text-align: left;"><img src="images/manandcomputers.png" width="550" alt="My Image" /></div>
-		
+ 
 
-	<!--
 		<img src="images/devops.png" alt="" width="750">
--->
+
 	</span>
 	<span style="font-weight: bold;">
 		<h1> Joseph's Technology </h1> 
