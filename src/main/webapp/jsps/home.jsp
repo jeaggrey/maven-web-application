@@ -33,7 +33,8 @@ out.println("Server Host Name :: "+inetAddress.getHostName());
 	</span>
 	<span style="font-weight: bold;">
 		<h1> Joseph Technology </h1> 
-		Woodstock, Ontario, Canada
+		<h1> Woodstock , Ontario </h1> 
+		<h1>  Canada </h1>
 		joey.grey@yahoo.com
 		<br>
 		<a href="mailto:joey.grey@gyahoo.com">Mail to Joseph Technologies</a>
