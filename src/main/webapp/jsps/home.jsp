@@ -32,7 +32,7 @@ out.println("Server Host Name :: "+inetAddress.getHostName());
 		<img src="images/pngwing.com.png" alt="" width="350">
 	</span>
 	<span style="font-weight: bold;">
-                Joseph Technology, 
+		<h1> Joseph Technology </h1> 
 		Woodstock, Ontario, Canada
 		joey.grey@yahoo.com
 		<br>
@@ -44,7 +44,7 @@ out.println("Server Host Name :: "+inetAddress.getHostName());
 <hr>
 <hr>
 <p align=center>Joseph Technologies - Learning DevOps</p>
-<p align=center><small>Copyrights 2022 by <a href="http://null.com/">Landmark Technologies</a> </small></p>
+<p align=center><small>Copyrights 2022 by <a href="http://null.com/">Joseph  Technologies</a> </small></p>
 
 </body>
 </html>
