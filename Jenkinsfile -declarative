@@ -1,0 +1,65 @@
+pipeline{
+    agent any
+
+    tools {
+        // Install the Maven version configured as "M3" and add it to the path.
+        maven "Maven3.8.6"
+        
+        
+    }
+stages {
+    stage('1clonecode') {
+        steps{
+    sh "echo 'cloning Repository'"
+   git 'https://github.com/jeaggrey/maven-web-application.git'
+        }
+    }
+    
+    stage('2JunitTesting&Build') {
+    steps {
+     sh "echo 'Running Test Cases' "    
+     sh "mvn package"   
+    }
+    }
+    stage('3RunningCodeQualityAnalysis')
+       {
+           steps{
+               sh "mvn sonar:sonar"
+           }
+       }
+       stage('4uploadArtifacts') {
+    steps {
+     sh "echo 'Uploading Artifacts' "    
+     sh "mvn deploy"   
+    }
+    }
+    
+
+    stage('5DeploytoUAT') {
+    steps {
+     sh "echo 'Deploying to UAT' "    
+        deploy adapters: [tomcat9(credentialsId: '58a32785-1bf4-4fab-a909-7944f6b46f90', path: '', url: 'http://35.182.45.230:8080/')], contextPath: null, war: '**/*.war'
+    }
+    }
+    
+    stage('EmailAgent') {
+    steps {
+    
+        emailextrecipients([buildUser(), previous(), upstreamDevelopers()])
+    }
+    
+    }
+            
+    }
+
+    post{
+
+     always{emailext body: 'Hey Guys Good Job !!!', subject: 'Success', to: 'employees-@clowestmail.com'}
+     success{emailext body: 'Hey Guys Good Job !!!', subject: 'Success', to: 'employees-@clowestmail.com'}
+     failure{emailext body: 'Hey Guys Good Job !!!', subject: 'Success', to: 'employees-@clowestmail.com'}
+        
+        
+    }
+
+    
+}
