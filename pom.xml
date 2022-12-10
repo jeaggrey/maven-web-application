@@ -110,7 +110,7 @@
 	
 	<build>
 	
-		<finalName>JoeTech-WebApp</finalName>
+		<finalName>JoeTech-WebApp2.0</finalName>
 	
 		<plugins>
 			<plugin>
