@@ -14,6 +14,44 @@
 <h1 align="center">Learning DevOPS , This is a Beta test to use Jenkins in my CI/CD Project </h1>
 	<h1 align="center" style="color:red" >I have sucessfully used Jenkins to integrate Maven,Sonarqube,Nexus & Tomcat</h1>
 <div style="text-align: center;"><img src="images/jenkins.png" width="850" alt="My Image"  /></div>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+</head>
+<body>
+
+<h2>Images Side by Side</h2>
+<p>How to create side-by-side images with the CSS float property:</p>
+
+<div class="row">
+  <div class="column">
+    <img src="images/nexus.png" alt="nexus" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="images/sonarqube.png" alt="sonarqube" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="images/tomcat.png" alt="tomcat" style="width:100%">
+  </div>
+</div>
+
+</body>	
 
 		
 
