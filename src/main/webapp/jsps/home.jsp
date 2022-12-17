@@ -85,7 +85,7 @@ out.println("Server Host Name :: "+inetAddress.getHostName());
 <div style="text-align: center;">
 	<span>
 		
-		<img src="images/devops.png" alt="" width="850">
+	<!--	<img src="images/devops.png" alt="" width="850"> -->
 
 	</span>
 	<span style="font-weight: bold;">
