@@ -14,47 +14,20 @@
 <h1 align="center">Learning DevOPS , This is a Beta test to use Jenkins in my CI/CD Project </h1>
 	<h1 align="center" style="color:red" >I have sucessfully used Jenkins to integrate Maven,Sonarqube,Nexus & Tomcat</h1>
 	<div style="text-align: center;"><img src="images/jenkins.png" width="850" alt="My Image" /></div>
-	{
-  <style>
-	box-sizing: border-box;
-}
-
-.column {
-  float: left;
-  width: 25%;
-  padding: 5px;
-}
-
-/* Clearfix (clear floats) */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-</style>
-</head>
-<body>
-
-
-	
-	
-	<div class="row">
-  <div class="column">
-    <img src="images/tomcat.png" alt="tomcat" style="width:100%">
-  </div>
-  <div class="column">
-    <img src="images/sonarqube.png" alt="sonarqube" style="width:100%">
-  </div>
-  <div class="column">
-    <img src="images/nexus.png" alt="nexus" style="width:100%">
-  </div>
-		<div class="column">
-    <img src="images/nginx.png" alt="nginx" style="width:100%">
-  </div>
-</div>
-	
-	</body>
-		
+<style> 
+    img { 
+        width:20%; 
+        float:left; 
+        margin:5px; 
+    } 
+</style> 
+ 
+<div> 
+    <img src="images/nexus.png" /> 
+    <img src="images/sonarqube.png"/> 
+    <img src="images/tomcat.png" /> 
+    <img src="images/nginx.png" /> 
+</div> 
 		
 
 	
