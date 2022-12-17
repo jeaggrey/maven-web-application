@@ -95,7 +95,7 @@ out.println("Server Host Name :: "+inetAddress.getHostName());
 		<h1> Joseph's Technology </h1> 
 		<h1> Woodstock , Ontario </h1> 
 		<h1>  Canada </h1>
-		<h2> joey.grey@yahoo.com </h2>
+		<!-- <h2> joey.grey@yahoo.com </h2> -->
 		<br>
 				
 <head>
