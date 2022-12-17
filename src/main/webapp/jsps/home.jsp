@@ -8,7 +8,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Joseph Aggrey - Home Page</title>
 	
-	<link href="images/devops.png" rel="icon">
+	<!-- <link href="images/devops.png" rel="icon"> -->
 </head>
 </head>
 <body>
