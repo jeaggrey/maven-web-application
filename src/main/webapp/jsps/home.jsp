@@ -21,7 +21,7 @@
 
 .column {
   float: left;
-  width: 33.33%;
+  width: 25%;
   padding: 5px;
 }
 
@@ -40,16 +40,16 @@
 	
 	<div class="row">
   <div class="column">
-    <img src="images/tomcat.png" alt="tomcat" width="300">
+    <img src="images/tomcat.png" alt="tomcat" style="width:100%">
   </div>
   <div class="column">
-    <img src="images/sonarqube.png" alt="sonarqube" width="300">
+    <img src="images/sonarqube.png" alt="sonarqube" style="width:100%">
   </div>
   <div class="column">
-    <img src="images/nexus.png" alt="nexus" width="300">
+    <img src="images/nexus.png" alt="nexus" style="width:100%">
   </div>
 		<div class="column">
-    <img src="images/nginx.png" alt="nginx" width="300">
+    <img src="images/nginx.png" alt="nginx" style="width:100%">
   </div>
 </div>
 	
