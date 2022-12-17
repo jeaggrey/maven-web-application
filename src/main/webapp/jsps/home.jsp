@@ -12,7 +12,8 @@
 <body>
 <h1 align="center">Welcome to Joseph's DevOP Project.</h1>
 <h1 align="center">Learning DevOPS , This is a Beta test to use Jenkins in my CI/CD Project </h1>
-	<div style="text-align: center;"><img src="images/jenkins.png" width="950" alt="My Image" /></div>
+	<h1 align="center" style="color:red" >I have sucessfully used Jenkins to integrate Maven,Sonarqube,Nexus & Tomcat</h1>
+	<div style="text-align: center;"><img src="images/jenkins.png" width="850" alt="My Image" /></div>
 		
 		
 
@@ -36,7 +37,7 @@ out.println("Server Host Name :: "+inetAddress.getHostName());
 <div style="text-align: center;">
 	<span>
 		
-		<img src="images/devops.png" alt="" width="950">
+		<img src="images/devops.png" alt="" width="850">
 
 	</span>
 	<span style="font-weight: bold;">
