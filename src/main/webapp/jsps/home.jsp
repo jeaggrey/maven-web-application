@@ -24,7 +24,7 @@
 
 .column {
   float: left;
-  width: 25%;
+  width: 16%;
   padding: 70px;
 }
 
@@ -55,7 +55,7 @@
 	<div class="column">
     <img src="images/mavenLogo.png" alt="mavenLogo" style="width:100%">
 		<div class="column">
-    <img src="images/nginx.png" alt="nginx" style="width:100%">
+    <img src="images/Docker.png" alt="Docker" style="width:100%">
   </div>
   </div>
 </div>
