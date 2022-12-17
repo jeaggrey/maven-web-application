@@ -15,7 +15,8 @@
 	<h1 align="center" style="color:red" >I have sucessfully used Jenkins to integrate Maven,Sonarqube,Nexus & Tomcat</h1>
 	<div style="text-align: center;"><img src="images/jenkins.png" width="850" alt="My Image" /></div>
 	{
-  box-sizing: border-box;
+  <style>
+	box-sizing: border-box;
 }
 
 .column {
@@ -37,17 +38,17 @@
 
 	
 	
-	<div class="column">
-  <div class="row">
+	<div class="row">
+  <div class="column">
     <img src="images/tomcat.png" alt="tomcat" width="300">
   </div>
-  <div class="row">
+  <div class="column">
     <img src="images/sonarqube.png" alt="sonarqube" width="300">
   </div>
-  <div class="row">
+  <div class="column">
     <img src="images/nexus.png" alt="nexus" width="300">
   </div>
-		<div class="row">
+		<div class="column">
     <img src="images/nginx.png" alt="nginx" width="300">
   </div>
 </div>
