@@ -91,7 +91,7 @@ out.println("Server Host Name :: "+inetAddress.getHostName());
 		<a href="mailto:joey.grey@gyahoo.com">Mail to Joseph Technologies</a>
 		
 		
-		<head>
+<head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 html {
@@ -104,8 +104,8 @@ html {
 
 .column {
   float: left;
-  width: 33.3%;
-  margin-bottom: 16px;
+  width: 20%;
+  margin-bottom: 8px;
   padding: 0 8px;
 }
 
@@ -154,14 +154,16 @@ html {
 <body>
 
 
+	
+	
 
 <div class="row">
   <div class="column">
     <div class="card">
       <img src="images/joseph.jpg" alt="Joseph" style="width:100%">
       <div class="container">
-        <h2>Jane Doe</h2>
-        <p class="title">CEO & Founder</p>
+        <h2>Joseph Aggrey </h2>
+        <p class="title">Head of Learning</p>
         <p>Learning Skills Required to be a Devops Engineer </p>
         <p>joey.grey@yahoo.com</p>
         <p><button class="button">Contact</button></p>
