@@ -4,18 +4,11 @@
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
-	html { background-color: #000; } 
-body {
-    min-height: 100vh;
-    max-width: 400px;
-    background-color: papayawhip; 
-    margin: 0 auto;
-}
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Joseph Aggrey - Home Page</title>
 	
-<link href="images/devops.png" rel="icon"
+	<link href="images/devops.png" rel="icon">
 </head>
 </head>
 <body>
@@ -61,6 +54,9 @@ body {
   </div>
 	<div class="column">
     <img src="images/mavenLogo.png" alt="mavenLogo" style="width:100%">
+		<div class="column">
+    <img src="images/nginx.png" alt="nginx" style="width:100%">
+  </div>
   </div>
 </div>
 
