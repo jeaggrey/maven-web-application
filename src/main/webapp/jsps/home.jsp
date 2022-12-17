@@ -105,7 +105,7 @@ html {
   box-sizing: inherit;
 }
 
-.column {
+.column1 {
   float: center;
   width: 15%;
   margin-bottom: 8px;
@@ -156,12 +156,8 @@ html {
 </head>
 <body>
 
-
-	
-	
-
 <div class="row">
-  <div class="column">
+  <div class="column1">
     <div class="card">
       <img src="images/joseph.jpg" alt="Joseph" style="width:100%">
       <div class="container">
