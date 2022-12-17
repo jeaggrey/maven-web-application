@@ -104,12 +104,12 @@ html {
 
 .column {
   float: left;
-  width: 20%;
+  width: 15%;
   margin-bottom: 8px;
   padding: 0 8px;
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 550px) {
   .column {
     width: 100%;
     display: block;
