@@ -158,7 +158,7 @@ html {
 <div class="row">
   <div class="column">
     <div class="card">
-      <img src="/w3images/team1.jpg" alt="Joseph" style="width:100%">
+      <img src="images/joseph.jpg" alt="Joseph" style="width:100%">
       <div class="container">
         <h2>Jane Doe</h2>
         <p class="title">CEO & Founder</p>
