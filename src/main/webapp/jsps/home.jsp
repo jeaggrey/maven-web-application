@@ -16,10 +16,10 @@
 <h1 align="center">Learning DevOPS , This is a Beta test to use Jenkins in my CI/CD Project </h1>
 	
 	<h1 align="center" style="color:red" >I have sucessfully used Jenkins to integrate Maven,Sonarqube,Nexus & Tomcat</h1>
-	<span>
+	
 <!-- <div style="text-align: center;"><img src="images/jenkins.png" width="850" alt="My Image"  /></div> -->
 		<span style="text-align: center;"><img src="images/jenkins.png" width="850" alt="My Image"  /></span>
-	</span>
+	
 		<head>
 <style>
 * {
