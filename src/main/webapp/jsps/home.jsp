@@ -23,7 +23,7 @@
 .column {
   float: left;
   width: 15%;
-  padding: 3px;
+  padding: 2px;
 }
 
 /* Clearfix (clear floats) */
@@ -39,16 +39,16 @@
 
 <div class="row">
   <div class="column">
-    <img src="images/nexus.png" alt="nexus" style="width:80%">
+    <img src="images/nexus.png" alt="nexus" style="width:100%">
   </div>
   <div class="column">
-    <img src="images/sonarqube.png" alt="sonarqube" style="width:80%">
+    <img src="images/sonarqube.png" alt="sonarqube" style="width:100%">
   </div>
   <div class="column">
-    <img src="images/tomcat.png" alt="tomcat" style="width:80%">
+    <img src="images/tomcat.png" alt="tomcat" style="width:100%">
   </div>
 	<div class="column">
-    <img src="images/tomcat.png" alt="nginx" style="width:80%">
+    <img src="images/nginx.png" alt="nginx" style="width:100%">
   </div>
 </div>
 
