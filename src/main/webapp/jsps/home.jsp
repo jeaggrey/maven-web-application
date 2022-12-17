@@ -25,7 +25,7 @@
 .column {
   float: left;
   width: 16%;
-  padding: 30px;
+  padding: 10px;
 }
 
 /* Clearfix (clear floats) */
@@ -38,7 +38,7 @@
 </head>
 <body>
 
-
+<span>
 <div class="row">
   <div class="column">
     <img src="images/nexus.png" alt="nexus" style="width:100%">
@@ -64,7 +64,7 @@
 </body>	
 
 		
-
+	</span>
 	
 <hr>
 <br>
@@ -114,7 +114,7 @@ html {
 }
 
 @media screen and (max-width: 550px) {
-  .column {
+  .column1 {
     width: 100%;
     display: block;
   }
