@@ -13,7 +13,7 @@
 <h1 align="center">Welcome to Joseph's DevOP Project.</h1>
 <h1 align="center">Learning DevOPS , This is a Beta test to use Jenkins in my CI/CD Project </h1>
 	<h1 align="center" style="color:red" >I have sucessfully used Jenkins to integrate Maven,Sonarqube,Nexus & Tomcat</h1>
-<div style="text-align: right;"><img src="images/jenkins.png" width="850" alt="My Image" style="text-align: left;"><img src="images/jenkins4.png" width="650" alt="My Image" /></div>
+<div style="text-align: center;"><img src="images/jenkins4.png" width="750" alt="My Image"  /></div>
 
 		
 
