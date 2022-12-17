@@ -13,8 +13,8 @@
 	<description>Maven Web Project for Java Project</description>
 
 	<organization>
-		<name>Landmark Technologies</name>
-		<url>http://landmarktechnologies.com/</url>
+		<name>JoeTech</name>
+		<url>josephaggrey.com/JoeTechWebApp1.0</url>
 	</organization>
 
 	<properties>
@@ -110,7 +110,7 @@
 	
 	<build>
 	
-		<finalName>JoeTech-WebApp2.0</finalName>
+		<finalName>JoeTechWebApp1.0</finalName>
 	
 		<plugins>
 			<plugin>
