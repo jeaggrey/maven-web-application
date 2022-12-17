@@ -39,19 +39,19 @@
 
 <div class="row">
   <div class="column">
-    <img src="images/nexus.png" alt="nexus" style="width:80%">
+    <img src="images/nexus.png" alt="nexus" style="width:100%">
   </div>
   <div class="column">
-    <img src="images/sonarqube.png" alt="sonarqube" style="width:80%">
+    <img src="images/sonarqube.png" alt="sonarqube" style="width:100%">
   </div>
   <div class="column">
-    <img src="images/tomcat.png" alt="tomcat" style="width:80%">
+    <img src="images/tomcat.png" alt="tomcat" style="width:100%">
   </div>
 	<div class="column">
-    <img src="images/nginx.png" alt="nginx" style="width:80%">
+    <img src="images/nginx.png" alt="nginx" style="width:100%">
   </div>
 	<div class="column">
-    <img src="images/mavenLogo.png" alt="mavenLogo" style="width:80%">
+    <img src="images/mavenLogo.png" alt="mavenLogo" style="width:100%">
   </div>
 </div>
 
@@ -88,9 +88,7 @@ out.println("Server Host Name :: "+inetAddress.getHostName());
 		<h1>  Canada </h1>
 		<h2> joey.grey@yahoo.com </h2>
 		<br>
-		<a href="mailto:joey.grey@gyahoo.com">Mail to Joseph Technologies</a>
-		
-		
+				
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
@@ -166,7 +164,7 @@ html {
         <p class="title">Head of Learning</p>
         <p>Learning Skills Required to be a Devops Engineer </p>
         <p>joey.grey@yahoo.com</p>
-        <p> Service : <a href="mailto:joey.grey@yahoo.com"><button class="button">Contact</button></p>
+        <p> <a href="mailto:joey.grey@yahoo.com"><button class="button">Contact</button></p>
       </div>
     </div>
   </div>
