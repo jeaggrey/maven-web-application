@@ -23,7 +23,7 @@
 .column {
   float: left;
   width: 25%;
-  padding: 50px;
+  padding: 70px;
 }
 
 /* Clearfix (clear floats) */
