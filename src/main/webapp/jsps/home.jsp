@@ -22,7 +22,7 @@
 
 .column {
   float: left;
-  width: 20%;
+  width: 25%;
   padding: 50px;
 }
 
@@ -166,7 +166,7 @@ html {
         <p class="title">Head of Learning</p>
         <p>Learning Skills Required to be a Devops Engineer </p>
         <p>joey.grey@yahoo.com</p>
-        <p> Service : <a href="mailto:joey.grey@yahoo.com">button class="button">Contact</button></p>
+        <p> Service : <a href="mailto:joey.grey@yahoo.com"><button class="button">Contact</button></p>
       </div>
     </div>
   </div>
