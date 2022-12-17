@@ -22,7 +22,7 @@
 
 .column {
   float: left;
-  width: 15%;
+  width: 25%;
   padding: 3px;
 }
 
