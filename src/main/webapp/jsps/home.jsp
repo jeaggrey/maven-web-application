@@ -25,7 +25,7 @@
 .column {
   float: left;
   width: 16%;
-  padding: 50px;
+  padding: 30px;
 }
 
 /* Clearfix (clear floats) */
@@ -54,6 +54,7 @@
   </div>
 	<div class="column">
     <img src="images/mavenLogo.png" alt="mavenLogo" style="width:100%">
+		 </div>
 		<div class="column">
     <img src="images/Docker.png" alt="Docker" style="width:100%">
   </div>
