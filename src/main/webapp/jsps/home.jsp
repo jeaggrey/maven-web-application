@@ -17,16 +17,16 @@
 	
 	<div class="row">
   <div class="column">
-    <img src="images/tomcat.png" alt="tomcat" width:"100">
+    <img src="images/tomcat.png" alt="tomcat" width="100">
   </div>
   <div class="column">
-    <img src="images/sonarqube.png" alt="sonarqube" width:"100">
+    <img src="images/sonarqube.png" alt="sonarqube" width="100">
   </div>
   <div class="column">
-    <img src="images/nexus.png" alt="nexus" width:"100">
+    <img src="images/nexus.png" alt="nexus" width="100">
   </div>
 		<div class="column">
-    <img src="images/nginx.png" alt="nginx" width:"100">
+    <img src="images/nginx.png" alt="nginx" width="100">
   </div>
 </div>
 	
