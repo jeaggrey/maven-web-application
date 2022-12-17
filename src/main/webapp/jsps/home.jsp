@@ -14,20 +14,7 @@
 <h1 align="center">Learning DevOPS , This is a Beta test to use Jenkins in my CI/CD Project </h1>
 	<h1 align="center" style="color:red" >I have sucessfully used Jenkins to integrate Maven,Sonarqube,Nexus & Tomcat</h1>
 	<div style="text-align: center;"><img src="images/jenkins.png" width="850" alt="My Image" /></div>
-<style> 
-    img { 
-        width:20%; 
-        float:left; 
-        margin:5px; 
-    } 
-</style> 
- 
-<div> 
-    <img src="images/nexus.png" /> 
-    <img src="images/sonarqube.png"/> 
-    <img src="images/tomcat.png" /> 
-    <img src="images/nginx.png" /> 
-</div> 
+
 		
 
 	
