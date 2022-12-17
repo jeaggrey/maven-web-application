@@ -17,8 +17,8 @@
 	
 	<h1 align="center" style="color:red" >I have sucessfully used Jenkins to integrate Maven,Sonarqube,Nexus & Tomcat</h1>
 	
-<!-- <div style="text-align: center;"><img src="images/jenkins.png" width="850" alt="My Image"  /></div> -->
-		<span align: "center"><img src="images/jenkins.png" width="850" alt="My Image"  /></span>
+ <div style="text-align: center;"><img src="images/jenkins.png" width="850" alt="My Image"  /></div> 
+	<!--	<span align: "center"><img src="images/jenkins.png" width="850" alt="My Image"  /></span> -->
 	
 		<head>
 <style>
