@@ -12,7 +12,6 @@
 </head>
 </head>
 <body>
-	<span>
 <h1 align="center" >Welcome to Joseph's DevOP Project.</h1>
 <h1 align="center">Learning DevOPS , This is a Beta test to use Jenkins in my CI/CD Project </h1>
 	<h1 align="center" style="color:red" >I have sucessfully used Jenkins to integrate Maven,Sonarqube,Nexus & Tomcat</h1>
@@ -25,7 +24,7 @@
 
 .column {
   float: left;
-  width: 16%;
+  width: 15%;
   padding: 10px;
 }
 
@@ -38,7 +37,7 @@
 </style>
 </head>
 <body>
-
+<span>
 <div class="row">
   <div class="column">
     <img src="images/nexus.png" alt="nexus" style="width:100%">
