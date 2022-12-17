@@ -22,7 +22,7 @@
 
 .column {
   float: left;
-  width: 25%;
+  width: 20%;
   padding: 50px;
 }
 
@@ -49,6 +49,9 @@
   </div>
 	<div class="column">
     <img src="images/nginx.png" alt="nginx" style="width:80%">
+  </div>
+	<div class="column">
+    <img src="images/mavenLogo.png" alt="mavenLogo" style="width:80%">
   </div>
 </div>
 
