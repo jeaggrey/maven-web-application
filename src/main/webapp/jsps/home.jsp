@@ -45,7 +45,7 @@
 	
 	<div class="row">
   <div class="column">
-    <img src="images/nexus.png" alt="github" style="width:100%">
+    <img src="images/github.png" alt="github" style="width:100%">
   </div>
 <div class="row">
   <div class="column">
