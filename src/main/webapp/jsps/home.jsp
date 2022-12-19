@@ -28,7 +28,7 @@
 
 .column {
   float: left;
-  width: 15%;
+  width: 14%;
   padding: 10px;
 }
 
@@ -42,21 +42,25 @@
 </head>
 <body>
 <span>
+	<div class="row">
+  <div class="column">
+    <img src="images/github.png" alt="github" style="width:100%">
+  </div>
 <div class="row">
   <div class="column">
-    <img src="images/nexus.png" alt="nexus" style="width:100%">
+    <img src="images/mavenLogo.png" alt="mavenLogo" style="width:100%">
   </div>
   <div class="column">
     <img src="images/sonarqube.png" alt="sonarqube" style="width:100%">
   </div>
   <div class="column">
+    <img src="images/nexus.png" alt="nexus" style="width:100%">
+  </div>
+	<div class="column">
     <img src="images/tomcat.png" alt="tomcat" style="width:100%">
   </div>
 	<div class="column">
     <img src="images/nginx.png" alt="nginx" style="width:100%">
-  </div>
-	<div class="column">
-    <img src="images/mavenLogo.png" alt="mavenLogo" style="width:100%">
 		 </div>
 		<div class="column">
     <img src="images/Docker.png" alt="Docker" style="width:100%">
