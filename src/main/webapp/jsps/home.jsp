@@ -12,8 +12,8 @@
 </head>
 </head>
 <body>
-<h1 align="center" >Welcome to Joseph's DevOP Project 1.</h1>
-<h1 align="center">Learning DevOPS , This is a Beta test to use Jenkins in my CI/CD Project </h1>
+<h1 align="center" >Welcome to Joseph's DevOP Project </h1>
+<h1 align="center">This is a Beta test to use Jenkins in my CI/CD Project </h1>
 	
 	<h1 align="center" style="color:red" >I have sucessfully used Jenkins to integrate Maven,Sonarqube,Nexus & Tomcat</h1>
 	
