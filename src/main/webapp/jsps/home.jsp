@@ -75,7 +75,7 @@
    <img src="images/k8.png" alt="kubernettes" style="width:100%">
 	</div>
 		<div class="column">
-    <img src="images/Docker.png" alt="Docker" style="width:100%">
+    <img src="images/terraform.png" alt="terraform" style="width:100%">
   </div>
 <span>
 	
