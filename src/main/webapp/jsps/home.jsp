@@ -71,15 +71,17 @@
 
 </body>	
 </span>
+<body>	
+<span>	
 <div class="column">
    <img src="images/k8.png" alt="kubernettes" style="width:100%">
 	</div>
 		<div class="column">
     <img src="images/terraform.png" alt="terraform" style="width:100%">
   </div>
-<span>
-	
 </span>
+	
+
 <hr>
 <br>
 	<h1><h3> Server Side IP Address </h3><br>
@@ -103,9 +105,9 @@ out.println("Server Host Name :: "+inetAddress.getHostName());
 
 	</span>
 	<span style="font-weight: bold;">
-		<h1> Joseph's Technology </h1> 
-		<h1> Woodstock , Ontario </h1> 
-		<h1>  Canada </h1>
+		<h1 align="center" > Joseph's Technology </h1> 
+		<h1 align="center" >Woodstock , Ontario </h1> 
+		<h1 align="center" > Canada </h1>
 		<!-- <h2> joey.grey@yahoo.com </h2> -->
 		<br>
 				
