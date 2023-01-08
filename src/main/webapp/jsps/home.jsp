@@ -15,7 +15,7 @@
 <h1 align="center" >Welcome to Joseph's DevOP Project </h1>
 <h1 align="center">This is a Beta test to use Jenkins in my CI/CD Project </h1>
 	
-	<h1 align="center" style="color:red" >I have sucessfully used Jenkins to integrate Maven,Sonarqube,Nexus & Tomcat</h1>
+	<h1 align="center" style="color:red" >I have sucessfully used Jenkins to integrate Maven,Sonarqube,Nexus,Tomcat & Docker </h1>
 	
  <div style="text-align: center;"><img src="images/jenkins.png" width="850" alt="My Image"  /></div> 
 	<!--	<span align: "center"><img src="images/jenkins.png" width="850" alt="My Image"  /></span> -->
@@ -70,10 +70,16 @@
 </div>
 
 </body>	
-
-		
-	</span>
+</span>
+<div class="column">
+   <img src="images/k8.png" alt="kubernettes" style="width:100%">
+	</div>
+		<div class="column">
+    <img src="images/Docker.png" alt="Docker" style="width:100%">
+  </div>
+<span>
 	
+</span>
 <hr>
 <br>
 	<h1><h3> Server Side IP Address </h3><br>
