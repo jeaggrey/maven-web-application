@@ -102,7 +102,9 @@ out.println("Server Host Name :: "+inetAddress.getHostName());
 	<span>
 		
 	<!--	<img src="images/devops.png" alt="" width="850"> -->
-
+<br>
+<br>		
+		
 	</span>
 	<span style="font-weight: bold;">
 		<h1 align="center" > Joseph's Technology </h1> 
@@ -110,7 +112,8 @@ out.println("Server Host Name :: "+inetAddress.getHostName());
 		<h1 align="center" > Canada </h1>
 		<!-- <h2> joey.grey@yahoo.com </h2> -->
 		<br>
-				
+
+		<br>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
