@@ -80,7 +80,7 @@
     <img src="images/terraform.png" alt="terraform" style="width:100%">
   </div>
 </span>
-	
+</body>	
 
 <hr>
 <br>
@@ -108,7 +108,7 @@ out.println("Server Host Name :: "+inetAddress.getHostName());
 <br>
 		<br>
 <br>		
-	
+
 	<span style="font-weight: bold;">
 		<h1 align="center" > Joseph's Technology </h1> 
 		<h1 align="center" > Woodstock , Ontario </h1> 
