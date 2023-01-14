@@ -104,12 +104,15 @@ out.println("Server Host Name :: "+inetAddress.getHostName());
 	<!--	<img src="images/devops.png" alt="" width="850"> -->
 <br>
 <br>		
-		
+<br>
+<br>
+		<br>
+<br>		
 	
 	<span style="font-weight: bold;">
 		<h1 align="center" > Joseph's Technology </h1> 
-		<h1 align="center" >Woodstock , Ontario </h1> 
-		<h1 align="center" > Canada </h1>
+		<h1 align="center" > Woodstock , Ontario </h1> 
+		<h1 align="center" >    Canada </h1>
 		<!-- <h2> joey.grey@yahoo.com </h2> -->
 		<br>
 </span>
