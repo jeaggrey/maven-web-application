@@ -13,7 +13,7 @@
 </head>
 <body>
 <h1 align="center" >Welcome to Joseph's DevOP Project </h1>
-<h1 align="center">This is a Beta test to use Jenkins in my CI/CD Project </h1>
+<h1 align="center"> Joetech CI/CD Project  </h1>
 	
 	<h1 align="center" style="color:red" >I have sucessfully used Jenkins to integrate Maven,Sonarqube,Nexus,Tomcat & Docker </h1>
 	
@@ -105,14 +105,14 @@ out.println("Server Host Name :: "+inetAddress.getHostName());
 <br>
 <br>		
 		
-	</span>
+	
 	<span style="font-weight: bold;">
 		<h1 align="center" > Joseph's Technology </h1> 
 		<h1 align="center" >Woodstock , Ontario </h1> 
 		<h1 align="center" > Canada </h1>
 		<!-- <h2> joey.grey@yahoo.com </h2> -->
 		<br>
-
+</span>
 		<br>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
