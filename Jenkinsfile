@@ -1,4 +1,9 @@
 pipeline{
+  environment {
+    registry = jeaggrey/webapp
+    registryCredential = 'DockerHubCred'
+    dockerImage = ''
+  }
   agent any 
   tools {
     maven "maven3.9.0"
@@ -17,7 +22,31 @@ pipeline{
         sh "mvn clean package"
       }
     }
+ stage('6BuildImage'){
+      steps{
 
+      script {
+        dockerImage = docker.build registry + ":$BUILD_NUMBER"
+      }  
+        sh "echo 'Building Docker Image' "
+       
+      }
+    }
+
+    stage('7PushImage'){
+      steps{
+
+      script {
+        docker.withRegistry( '', registryCredential )
+        {
+        dockerImage.push()
+       }  
+      }  
+        sh "echo 'Building Docker Image' "
+       
+        sh "mvn clean package"
+      }
+    }
     
     // stage('4CodeQuality'){
     //   steps{
