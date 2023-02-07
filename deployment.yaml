@@ -26,6 +26,7 @@ kind: Service
 metadata:
   name: joeappserv
 spec:
+  type: NodePort
   selector:
     app: joe
   ports:
