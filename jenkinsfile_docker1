@@ -67,7 +67,7 @@ pipeline{
 stage('8Deploying image to Kubernetes') {
       steps {
         script {
-          kubernetesDeploy(configs: "deploymentservice.yml", kubeconfigId: "kubernetes") //kubernetes filename to deploy //add latest tag to kubermetets image 
+        kubernetesDeploy (configs: 'deployment.yaml', kubeconfigId: 'Kubernetes')
         }
       }
     }
