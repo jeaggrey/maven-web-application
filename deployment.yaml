@@ -1,23 +1,23 @@
-depapiVersion: apps/v1
+apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: joetechdep
+  name: joedep1
 spec:
   selector:
     matchLabels:
-       app: joe
+      app: myapp1
   template:
     metadata:
       labels:
-        app: joe
+        app: myapp1
     spec:
       containers:
-      - name: joetech
-        image: jeaggrey/webapp:latest
-        # resources:
-        #   limits:
-        #     memory: "128Mi"
-        #     cpu: "500m"
+      - name: joecon1
+        image: jeaggrey/webapp
+        resources:
+          limits:
+            memory: "128Mi"
+            cpu: "500m"
         ports:
         - containerPort: 8080
 ---
