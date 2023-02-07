@@ -3,6 +3,7 @@
 // Github account.
 // Docker hub account.
 // Install the Docker Pipelines plugin on Jenkins
+// Install/Download kubernetets plugin https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbXotUUl5ZFptMmU0U3kxTHFNU3ZFcmFHTUdHUXxBQ3Jtc0tsV1FnajdpLWtkcWZlZ29fbUVLOW1kZzRsMXBTbjNUclNGSVNyYktTYkFEQzZrTm9KTXl5SDlaXzNMdWRfY0tvSjFyRDc1R1dScnlWcDIzblFjTHlLUDA2VklMN2liSWNYazR5eEFLcnhEaDNfeVJ1WQ&q=https%3A%2F%2Fupdates.jenkins.io%2Fdownload%2Fplugins%2Fkubernetes-cd%2F1.0.0%2Fkubernetes-cd.hpi&v=XE_mAhxZpwU
 // Docker Hub account details. Go to Credentials → Global → Add credentials  
 // Note that if you set the ID, you will need this specific ID to refer this credential from your scripts. Here we are just using dockerhub_id.
 
@@ -51,7 +52,7 @@ pipeline{
        
       }
     }
-    stage('7PushImage'){
+     stage('7PushImage'){
       steps{
       script {
         docker.withRegistry( '', registryCredential )
@@ -62,4 +63,15 @@ pipeline{
         sh "echo 'Building Docker Image'"
        }
     }
-    
+stage('8Deploying image to Kubernetes') {
+      steps {
+        script {
+          kubernetesDeploy(configs: "deploymentservice.yml", kubeconfigId: "kubernetes") //kubernetes filename to deploy //add latest tag to kubermetets image 
+        }
+      }
+    }
+
+  }
+}
+
+  
