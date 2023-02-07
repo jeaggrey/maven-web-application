@@ -36,7 +36,7 @@ pipeline{
 //       }
 //     }
 // }
- stage('BuildImage'){
+//  stage('BuildImage'){
     //   steps{
     //     sh "mvn deploy"
     //   }
@@ -70,4 +70,4 @@ Landmark
   
 }
 }
-}
+
