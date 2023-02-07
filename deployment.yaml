@@ -5,7 +5,7 @@ metadata:
 spec:
   selector:
     matchLabels:
-      app: joe
+       app: joe
   template:
     metadata:
       labels:
