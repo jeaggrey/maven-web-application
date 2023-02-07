@@ -1,12 +1,20 @@
+// Prequisites
+// A server with Jenkins and Docker running on it (Jenkins user should be allowed to run Docker).
+// Github account.
+// Docker hub account.
+// Install the Docker Pipelines plugin on Jenkins
+// Docker Hub account details. Go to Credentials → Global → Add credentials  
+// Note that if you set the ID, you will need this specific ID to refer this credential from your scripts. Here we are just using dockerhub_id.
+
 pipeline{
   environment {
     registry = "jeaggrey/webapp"
-    registryCredential = 'DockerHubCred'
+    registryCredential = 'DockerHubCred' //Credential name in Jenkins for Dockerhub
     dockerImage = ''
   }
   agent any 
   tools {
-    maven "maven3.9.0"
+    maven "maven3.9.0" //Pick Maven Version
   }  
   stages {
     stage('1GetCode'){
@@ -38,7 +46,7 @@ pipeline{
       steps{
 
       script {
-        dockerImage = docker.build registry + ":$BUILD_NUMBER"
+        dockerImage = docker.build registry + ":$BUILD_NUMBER" //use build number as image tag
       }   sh "echo 'Building Docker Image' "
        
       }
@@ -55,34 +63,3 @@ pipeline{
        }
     }
     
-  
-//   post{
-//     always{
-//       emailext body: '''Hey guys
-// Please check build status.
-
-// Thanks
-// Landmark 
-// +1 437 215 2483''', recipientProviders: [buildUser(), developers()], subject: 'success', to: 'paypal-team@gmail.com'
-//     }
-//     success{
-//       emailext body: '''Hey guys
-// Good job build and deployment is successful.
-
-// Thanks
-// Landmark 
-// +1 437 215 2483''', recipientProviders: [buildUser(), developers()], subject: 'success', to: 'paypal-team@gmail.com'
-//     } 
-//     failure{
-//       emailext body: '''Hey guys
-// Build failed. Please resolve issues.
-
-// Thanks
-// Landmark 
-// +1 437 215 2483''', recipientProviders: [buildUser(), developers()], subject: 'success', to: 'paypal-team@gmail.com'
-//     }
-//   } 
-  
-}
-}
-
