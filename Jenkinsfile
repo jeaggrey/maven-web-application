@@ -1,6 +1,6 @@
 pipeline{
   environment {
-    registry = jeaggrey/webapp
+    registry = "jeaggrey/webapp"
     registryCredential = 'DockerHubCred'
     dockerImage = ''
   }
